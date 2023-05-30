@@ -16,7 +16,7 @@ function App() {
         {/* <AnimatedCursor color="0,240,255" outerAlpha={1} outerSize={"15px"} innerSize={"30px"} /> */}
         <Routes >
           <Route path="/" element={<div><Home/></div>}/>
-          <Route path="/Responsive-React-Website" element={<div><Home/></div>}/>
+          <Route path="" element={<div><Home/></div>}/>
           <Route path="/services" element={<Services/>}/>
           <Route path="/work" element={<Work/>}/>
           <Route path="/blog" element={<Blog/>}/>

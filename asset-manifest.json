@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Responsive-React-Website/static/css/main.bcb40cce.css",
-    "main.js": "/Responsive-React-Website/static/js/main.d90c9cf7.js",
+    "main.js": "/Responsive-React-Website/static/js/main.e7b0800f.js",
     "index.html": "/Responsive-React-Website/index.html",
     "main.bcb40cce.css.map": "/Responsive-React-Website/static/css/main.bcb40cce.css.map",
-    "main.d90c9cf7.js.map": "/Responsive-React-Website/static/js/main.d90c9cf7.js.map"
+    "main.e7b0800f.js.map": "/Responsive-React-Website/static/js/main.e7b0800f.js.map"
   },
   "entrypoints": [
     "static/css/main.bcb40cce.css",
-    "static/js/main.d90c9cf7.js"
+    "static/js/main.e7b0800f.js"
   ]
 }

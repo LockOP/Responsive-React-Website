@@ -6,17 +6,19 @@ import Contact from "./Components/Pages/Contact";
 
 import Menu from "./Components/NavBar/menu";
 import { Route, Routes } from "react-router-dom";
+import { useState } from "react";
 
 
 function App() {
-  let c=0;
-  return (
+  const [c,uc] = useState(0)
+   return (
     <>
       <Menu/>
       <div className="route-container">
         {/* <AnimatedCursor color="0,240,255" outerAlpha={1} outerSize={"15px"} innerSize={"30px"} /> */}
         <Routes >
-          {c<1? <Route element={<div><Home/></div>}/> : <div/>}
+          {c<1? <Route element={<div><Home/></div>} />: <div/>}
+          {uc(1)}
           <Route path="/" element={<div><Home/></div>}/>
           <Route path="/services" element={<Services/>}/>
           <Route path="/work" element={<Work/>}/>

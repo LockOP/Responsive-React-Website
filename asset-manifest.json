@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Responsive-React-Website/static/css/main.bcb40cce.css",
+    "main.js": "/Responsive-React-Website/static/js/main.cecc778c.js",
+    "index.html": "/Responsive-React-Website/index.html",
+    "main.bcb40cce.css.map": "/Responsive-React-Website/static/css/main.bcb40cce.css.map",
+    "main.cecc778c.js.map": "/Responsive-React-Website/static/js/main.cecc778c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcb40cce.css",
+    "static/js/main.cecc778c.js"
+  ]
+}

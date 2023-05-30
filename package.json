@@ -2,7 +2,7 @@
   "homepage": "https://lockop.github.io/Responsive-React-Website",
   "name": "nexgen",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@ap.cx/react-fullpage": "^0.3.0",
     "@react-spring/web": "^9.7.2",

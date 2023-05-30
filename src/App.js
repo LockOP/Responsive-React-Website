@@ -9,14 +9,14 @@ import { Route, Routes } from "react-router-dom";
 
 
 function App() {
-  console.log(window.path)
+  let c=0;
   return (
     <>
       <Menu/>
       <div className="route-container">
         {/* <AnimatedCursor color="0,240,255" outerAlpha={1} outerSize={"15px"} innerSize={"30px"} /> */}
         <Routes >
-          <Route path="https://lockop.github.io/Responsive-React-Website/" element={<div><Home/></div>}/>
+          {c<1? <Route element={<div><Home/></div>}/> : none}
           <Route path="/" element={<div><Home/></div>}/>
           <Route path="/services" element={<Services/>}/>
           <Route path="/work" element={<Work/>}/>
